@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='container mx-auto grid px-10 gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0'>
+            <div className='container mx-auto grid px-10 gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'>
 
                 <div className='mx-auto mb-25'>
                     <div className='flex flex-col gap-4'>
