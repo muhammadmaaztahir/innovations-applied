@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='flex w-full py-5 px-5 sm:px-0  items-center justify-between container mx-auto'>
+      <div className='flex w-full py-5 px-10 sm:px-10 items-center justify-between container mx-auto '>
         <div><a href="/"><img src={Logo} alt="" /></a></div>
         
         <div className='hidden md:block'>

@@ -40,7 +40,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0'>
+            <div className='container mx-auto grid px-10 gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0'>
 
                 <div className='mx-auto mb-25'>
                     <div className='flex flex-col gap-4'>
@@ -140,8 +140,8 @@ const About = () => {
             </div>
 
 
-            <div className='bg-white mx-auto py-15 sm:py-30 pb-50 sm:pb-30 sm:px-0 px-5'>
-                <div className="container mx-auto relative mb-15">
+            <div className='px-0 bg-white mx-auto py-15 sm:py-30 pb-50 sm:pb-30 sm:px-0 '>
+                <div className="container mx-auto relative mb-15 px-10">
                     <p className="uppercase font-bold sm:text-[52px] text-[36px] text-[#222222] mb-6">
                         About{" "}
                         <br />
@@ -151,7 +151,7 @@ const About = () => {
                         </span>
                     </p>
                 </div>
-                <div className='container mx-auto pb-30 flex flex-wrap sm:flex-nowrap sm:gap-30'>
+                <div className='container mx-auto px-10 pb-30 flex flex-wrap sm:flex-nowrap sm:gap-30'>
                     <img className='sm:w-1/2' src={aboutImg1} alt="" />
                     <div className='sm:w-1/2 flex flex-col gap-30 relative'>
                         <p className='sm:w-2/3  text-[18px] pt-10 text-[#444444]'>Over the past 20 years, our founder has lead teams that have created trend setting industrial distribution and supply chain automation for the cutting tool industry, built a proprietary remote controlled video streaming encoder and cloud management service, provided live video interactive training and event streaming for automotive companies such as Ford, Toyota, & Honda, and built and maintained global video conferencing networks.</p>
@@ -166,8 +166,8 @@ const About = () => {
                 <LogoSlide />
             </div>
 
-            <div className='bg-white mx-auto py-15 sm:py-30 pb-20 sm:pb-30 sm:px-0 px-5 '>
-                <div className='container flex flex-wrap sm:flex-nowrap sm:gap-20  gap-10 mx-auto '>
+            <div className='bg-white  mx-auto py-15 sm:py-30 pb-20 sm:pb-30 sm:px-0 '>
+                <div className='container px-10 flex flex-wrap sm:flex-nowrap sm:gap-20  gap-10 mx-auto '>
                     <div className=" sm:w-1/2 flex flex-col gap-10 mx-auto relative">
                         <p className="uppercase font-bold sm:text-[52px] text-[36px] text-[#222222] mb-6">
                             Our{" "}

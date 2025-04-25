@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = ({ bgColor = "bg-white" }) => {
   return (
     <div>
-      <div className={`${bgColor} rounded-3xl`}>
+      <div className={`${bgColor} rounded-3xl md:px-10`}>
         <div className='container mx-auto'>
           <div className='flex px-5 sm:px-0 flex-wrap sm:flex-nowrap gap-20 pt-20 pb-10'>
             <div className='sm:w-[40%] w-full flex flex-col gap-7'>

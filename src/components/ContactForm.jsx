@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function ContactForm({ bgColor = "#f1f3f3" }) {
     return (
-        <div className={`py-32`} style={{ backgroundColor: bgColor }}>
+        <div className={`py-32 md:px-10`} style={{ backgroundColor: bgColor }}>
             <div className="flex flex-col container mx-auto md:flex-row items-center justify-between">
                 <div className="md:w-1/2 mb-6 md:mb-0">
                     <div className="relative sm:px-0 px-5">
