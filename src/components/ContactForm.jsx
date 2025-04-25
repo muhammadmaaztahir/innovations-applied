@@ -41,7 +41,7 @@ export default function ContactForm({ bgColor = "#f1f3f3" }) {
                 <div className="md:w-1/2 w-full sm:px-20 px-5">
                     <form
                         className="space-y-10"
-                        action="https://formsubmit.co/maazcomputer123@gmail.com"
+                        action="https://formsubmit.co/example@gmail.com"
                         method="POST"
                     >
                         <input type="hidden" name="_captcha" value="false" />
